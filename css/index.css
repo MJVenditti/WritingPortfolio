@@ -44,17 +44,24 @@ h1 {
 }
 
 .bio_text {
-    margin: 0px 50px 15px 50px; /* top right bottom left */
+
+    margin: 20px 50px 15px 50px; /* top right bottom left */
+    padding: 20px;
+
 }
 
 .three_hundred_entry{
 
-    margin: 50px 50px 15px 50px; /* top right bottom left */
-
+    margin: 20px 50px 15px 50px; /* top right bottom left */
+    border: solid .3px lightgrey;
+    padding: 20px;
+    box-shadow:  5px 5px 10px grey; /* x, y, spread, color */
+    background-color: rgb(223, 220, 220);
+    line-height: 25px;
 }
 
-span{
+p {
 
-    text-indent: 10px;
+    text-indent: 25px;
 
 }
