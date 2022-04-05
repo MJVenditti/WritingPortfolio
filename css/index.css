@@ -1,0 +1,67 @@
+body {
+
+    background-color: lightgray;
+    margin: 0;
+
+}
+
+/* Navigation bar styling */
+
+.navigation_bar {
+    margin-top: 20px;
+    margin-left: 15px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+}
+
+
+a {
+    
+    text-decoration: none;
+    color:  darkslategrey;
+
+}
+
+a:hover{
+
+    text-decoration: none;
+    color: black;
+
+}
+
+a:active {
+
+    color: black;
+
+}
+
+/* Text styling */
+
+h1 {
+    text-align: center;
+    margin: 50px 0px 0px 0px; /* top right bottom left */
+}
+
+.bio_text {
+
+    margin: 20px 50px 15px 50px; /* top right bottom left */
+    padding: 20px;
+
+}
+
+.three_hundred_entry{
+
+    margin: 20px 50px 15px 50px; /* top right bottom left */
+    border: solid .3px lightgrey;
+    padding: 20px;
+    box-shadow:  5px 5px 10px grey; /* x, y, spread, color */
+    background-color: rgb(223, 220, 220);
+    line-height: 25px;
+}
+
+p {
+
+    text-indent: 25px;
+
+}
